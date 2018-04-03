@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Mysql connection Working</h1>
+      <table class="table table-striped">
+        <tr>
+          <th>ID</th>
+          <th>Patient</th>
+          <th>Contact</th>
+          <th>Address</th>
+        </tr>
+
+        <tr *ngFor="let user of users">
+          <td> {{ user.id }} </td>
+          <td> {{ user.patient }} </td>
+          <td> {{ user.contact }} </td>
+          <td> {{ user.address }} </td>
+        </tr>
+      </table>
+</div>
